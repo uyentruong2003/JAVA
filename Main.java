@@ -1,6 +1,7 @@
 
 public class Main {
-    public static void Fundamentals(String[] args) {
+
+    public static void main(String[] args) {
         System.out.println("Hello World Java");
         // variable declaration syntax
         int myInteger = 20;
@@ -55,6 +56,33 @@ public class Main {
         val2 = val1;
         System.out.println(val2);
 
+        // relational operators: >, <, >=, <=, ==, !=
+        val1 = 100;
+        int maxValue = val1 > val2 ? val1 : val2;
+        System.out.println(maxValue);
+
+        // if-else:
+        if (val1 > val2)
+            System.out.println("Val1 is bigger");
+        else if (val1 < val2)
+            System.out.println("Val2 is bigger");
+        else
+            System.out.println("Val1 and val2 are equal");
+        
+        // logical operators: and (&), or (|), exclusive or (^) - both true scenario is excluded
+        boolean result = val1 > val2 & val1 % val2 == 0; //true AND true => true
+        System.out.println(result);
+        result = val1 - val2 >= 0 | val1 < val2; // true OR false => true
+        System.out.println(result);
+        result = val1 - val2 >= 0 ^ val1 > val2; // true XOR true => false
+        System.out.println(result);
+        // conditional logical operators (and or in if-else statement): and (&&), or (||)
+        if (val1 > val2 && val1 % val2 == 0)
+            System.out.println("Val1 is greater than val2 and val1 is divisible to val2");
+        else {
+            System.out.println("val1 is smaller than val2");
+            System.out.println("Val1 is also not divisible to val2");
+        }
     }
-    
+
 }
