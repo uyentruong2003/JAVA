@@ -83,6 +83,74 @@ public class Main {
             System.out.println("val1 is smaller than val2");
             System.out.println("Val1 is also not divisible to val2");
         }
+
+        //switch statement:
+        char myChoice = 'a';
+        var calc = 0;
+        val1 = 10;
+        val2 = 11;
+        switch(myChoice) {
+            case 'a':
+                calc = val1 + val2;
+                break;
+            case 's':
+                calc = val2 - val1;
+                break;
+            case 'm':
+                calc = val1 * val2;
+            case 'd':
+                calc = val2 != 0 ? val1/val2 : 0;
+                break;
+            default:
+                calc = 0;
+            break;
+        }
+        System.out.println(calc);
+
+        // while loop:
+        int someValue = 4; //initial read
+        int factorial = 1;
+        while (someValue > 1){ //check first, do later
+            factorial *= someValue;
+            someValue--; //update read
+        }
+        System.out.println(factorial);
+
+        //do-while loop:
+        int iVal = 10; //initial read
+        do {
+            System.out.print(iVal);
+            iVal *= 2; //update read
+            System.out.print(" * 2 = ");
+            System.out.println(iVal);
+        } while (iVal < 25); //do first, check later
+
+        //for loop: still the factorial example
+        int newFactorial = 1;
+        for(int i = 5; i>1; i--){
+            newFactorial *= i;
+            System.out.print(i);
+            System.out.print(" * ");
+        }
+        System.out.print("1 = ");
+        System.out.println(newFactorial);
+
+        //array
+        //declare an array- method 1
+        float[] array1 = new float[3];
+        array1[0] = 99.0f;
+        array1[1] = 13.11f;
+        array1[2] = -0.2210f;
+
+        //declare an array- method 2
+        float[] array2 = {99.0f, 13.11f, -0.2210f};
+
+        //loop through an array with for loop
+        float sumArr = 0f;
+        for (int index=0; index < array2.length; index++){
+            sumArr += array2[index];
+        }
+        System.out.println(sumArr);
     }
 
 }
