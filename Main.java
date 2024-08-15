@@ -158,6 +158,41 @@ public class Main {
             sumArr += currentVal;
         }
         System.out.println(sumArr);
+
+        // call void method
+        float[] myArr = {10.2222f, -21.1f, 0.11f, 20f};
+        incrementArrVal(myArr, 2);
+        incrementArrVal(array2, 0);
+
+        // call method with return value
+        System.out.println(calcFactorial(6));
+    }
+    // declare a void method (aka function)
+    static void incrementArrVal (float[] array, int number) {
+        if (number <= 0){
+            System.out.println("No increment occurs with the input number");
+            return; // exit
+        }
+        for (int i=0; i< array.length; i++) {
+            array[i] += number;
+            System.out.print(array[i]);
+            System.out.print(" | ");
+        }
+        System.out.println("");
+        return;
+    }
+
+    //declare a method with return value
+    static int calcFactorial (int number) {
+        int newFactorial = 1;
+        for(int i = number; i>1; i--){
+            newFactorial *= i;
+            System.out.print(i);
+            System.out.print(" * ");
+        }
+        System.out.print("1 = ");
+        System.out.println(newFactorial);
+        return newFactorial;
     }
 
 }
