@@ -151,6 +151,13 @@ public class Main {
             sumArr += array2[index];
         }
         System.out.println(sumArr);
+
+        sumArr = 0f;
+        //loop through an array with for each loop
+        for (float currentVal : array2) {
+            sumArr += currentVal;
+        }
+        System.out.println(sumArr);
     }
 
 }
