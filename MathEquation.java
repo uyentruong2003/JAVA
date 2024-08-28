@@ -100,21 +100,22 @@ public class MathEquation {
     }
 
     private char letterToSymbol (MathOperation opCode) {
-        char symbol = ' ';
-        switch (opCode){
-            case ADD:
-            symbol = '+';
-            break;
-            case SUBTRACT:
-            symbol = '-';
-            break;
-            case MULTIPLY:
-            symbol='*';
-            break;
-            default:
-            symbol='/';
-            break;
-        }
+        // char symbol = ' ';
+        // switch (opCode){
+        //     case ADD:
+        //     symbol = '+';
+        //     break;
+        //     case SUBTRACT:
+        //     symbol = '-';
+        //     break;
+        //     case MULTIPLY:
+        //     symbol='*';
+        //     break;
+        //     default:
+        //     symbol='/';
+        //     break;
+        // }
+        char symbol = opCode.getSymbol();
         return symbol;
     }
 

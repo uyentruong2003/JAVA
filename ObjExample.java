@@ -52,7 +52,9 @@ public class ObjExample {
         int val1 = 11;
         String val1Class = Integer.toString(val1);
         
-        
+        // record example:
+        Student student1 = new Student("Uyen", "Senior", "MIS and OM", 4.0d);
+        System.out.println(student1.name() + " is a "+ student1.grade() + ", majoring in " + student1.major() + ". She has a " + student1.gpa() + " GPA.");
     }
 
     // static import- import the static methods just as a package: import static [className].[staticMethodName or * for all static methods]
