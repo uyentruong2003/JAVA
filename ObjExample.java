@@ -55,6 +55,13 @@ public class ObjExample {
         // record example:
         Student student1 = new Student("Uyen", "Senior", "MIS and OM", 4.0d);
         System.out.println(student1.name() + " is a "+ student1.grade() + ", majoring in " + student1.major() + ". She has a " + student1.gpa() + " GPA.");
+
+
+        // Alarm inheritance example
+        Alarm generalAlarm = new Alarm("This is a general alarm");
+        generalAlarm.printAlarmMessage();
+        FireAlarm arsonAlarm = new FireAlarm("arson");
+        arsonAlarm.printAlarmMessage();
     }
 
     // static import- import the static methods just as a package: import static [className].[staticMethodName or * for all static methods]
