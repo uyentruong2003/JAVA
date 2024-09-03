@@ -5,33 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46d079d6-4f8b-4fb1-93dd-dfd81e71c3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../java_fundamentals/Self-learning Programming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/springboot_fundamentals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Alarm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalcEngine.Java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalcEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClassExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FireAlarm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fundamental.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathEquation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ObjExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Strings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Student.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/Organizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/OrganizerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/Venue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/VenueRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/registration/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/registration/RegistrationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -101,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725393079643</updated>
-      <workItem from="1725393081948" duration="1473000" />
+      <workItem from="1725393081948" duration="6016000" />
     </task>
     <servers />
   </component>
