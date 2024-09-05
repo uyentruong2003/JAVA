@@ -26,7 +26,7 @@ public class EventController {
     }
 
     @GetMapping(path = "/events")
-    public List<Event> getEventsByOrganizer(int organizerId) {
+    public List<Event> getEventsByOrganizer(@RequestParam("organizerId") int organizerId) {
         return eventRepository.findByOrganizerId(organizerId);
     }
 
@@ -36,7 +36,7 @@ public class EventController {
                 .orElseThrow(() -> new NoSuchElementException("Event with id "+eventId+" not found"));
     }
     @GetMapping(path = "/products")
-    public List<Product> getProductsByEvent(int eventId) {
+    public List<Product> getProductsByEvent(@RequestParam("eventId") int eventId) {
         return productRepository.findByEventId(eventId);
     }
 }

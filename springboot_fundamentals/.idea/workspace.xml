@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46d079d6-4f8b-4fb1-93dd-dfd81e71c3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/Organizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/OrganizerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/Venue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/VenueRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/registration/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/registration/RegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/requests.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/registration/RegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainingProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/events/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/registration/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainingProject/src/main/java/com/training/springboot/trainingProject/registration/Registration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
       <list>
         <option value="Record" />
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -46,6 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -100,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725393079643</updated>
-      <workItem from="1725393081948" duration="6016000" />
+      <workItem from="1725393081948" duration="12286000" />
     </task>
     <servers />
   </component>
