@@ -1,6 +1,8 @@
 package com.training.springboot.trainingProject.registration;
 
 import jakarta.validation.constraints.NotNull;
+import org.springframework.data.mongodb.core.mapping.Documents;
+
 
 public record Registration(
         Integer id,
