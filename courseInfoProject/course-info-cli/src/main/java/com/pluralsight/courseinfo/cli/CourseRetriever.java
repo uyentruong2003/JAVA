@@ -11,6 +11,8 @@ import com.pluralsight.courseinfo.cli.service.PluralsightCourse;
 
 import java.util.List;
 
+import static java.util.function.Predicate.not;
+
 public class CourseRetriever {
 //    private static final Logger LOG = LoggerFactory.getLogger(CourseRetriever.class);
 
@@ -39,9 +41,11 @@ public class CourseRetriever {
         System.out.println("Retrieve courses for author " + authorId);
         CourseRetrieverService courseRetrieverService = new CourseRetrieverService();
 
+        // print out a list of PluralsightCourse from the GET API call
         List<PluralsightCourse> coursesToStore = courseRetrieverService.getCoursesFor(authorId)
                         .stream()
-                        .filter(course -> !course.isRetired()) //only return the courses that isRetired = false
+//                        .filter(course -> !course.isRetired())//lambda expression: only return the courses that isRetired = false
+                        .filter(not(PluralsightCourse::isRetired))//method reference: achieve the same purpose
                         .toList();
         System.out.println("Retrieve the following courses " + coursesToStore);
     }
