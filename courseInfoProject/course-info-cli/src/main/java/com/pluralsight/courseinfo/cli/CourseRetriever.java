@@ -7,7 +7,9 @@ slf4j: a dependency that helps with console logging during coding. Add this depe
 */
 
 import com.pluralsight.courseinfo.cli.service.CourseRetrieverService;
+import com.pluralsight.courseinfo.cli.service.CourseStorageService;
 import com.pluralsight.courseinfo.cli.service.PluralsightCourse;
+import com.pluralsight.courseinfo.repository.CourseRepository;
 
 import java.util.List;
 
@@ -40,6 +42,9 @@ public class CourseRetriever {
 //        LOG.info("Retrieve courses for author '{}'",authorId);
         System.out.println("Retrieve courses for author " + authorId);
         CourseRetrieverService courseRetrieverService = new CourseRetrieverService();
+        CourseRepository courseRepository = CourseRepository.openCourseRepository("./courses.db");
+        CourseStorageService courseStorageService = new CourseStorageService(courseRepository);
+
 
         // print out a list of PluralsightCourse from the GET API call
         List<PluralsightCourse> coursesToStore = courseRetrieverService.getCoursesFor(authorId)
@@ -48,5 +53,7 @@ public class CourseRetriever {
                         .filter(not(PluralsightCourse::isRetired))//method reference: achieve the same purpose
                         .toList();
         System.out.println("Retrieve the following courses " + coursesToStore);
+        courseStorageService.storePluralsightCourses(coursesToStore);
+        System.out.println("Courses successfully stored");
     }
 }
